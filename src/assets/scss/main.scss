@@ -1,0 +1,38 @@
+@import "utils/libs";
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/fonts";
+@import "utils/reset";
+@import "modules/wrapper.scss";
+body {
+    font-family: $mainFont;
+    font-size: $mainFontSize;
+    $font-weight: $mainFontWeight;
+    color: $mainFontColor;
+    text-decoration: none;
+    background-color: #fafafa;
+}
+
+::placeholder {
+    color: $neutral-placeholder !important;
+    font-family: $mainFont;
+}
+
+.menu-block__subtitle {
+    color: #6E6E6E;
+}
+
+.menu-block a {
+    color: $menuFont-color;
+}
+
+.button-primary-custom {
+    background-color: $buttonsPrimary-color;
+    color: $buttonsText-color;
+    font-family: $mainFont;
+}
+
+.button-secondary-custom {
+    background-color: $buttonsSecondary-color;
+    color: $buttonsText-color;
+}

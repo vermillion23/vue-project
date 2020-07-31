@@ -4,7 +4,9 @@
                     :value="newTodo"
                     @change="getTodo"
                     placeholder="Новая задача" autofocus>
-        <button class="btn btn-primary btn-sm todo-list-add-btn" @click="addTodo">Add</button>
+        <button class="button-primary-custom btn todo-list-add-btn" @click="addTodo">
+            Добавить
+            </button>
     </div>
 </template>
 

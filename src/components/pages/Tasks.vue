@@ -25,9 +25,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-section{
-    background-color: #fafafa;
-}
+// section{
+//     background-color: #fafafa;
+// }
 .b-sidebar {
   max-width: 24vw !important;
 }

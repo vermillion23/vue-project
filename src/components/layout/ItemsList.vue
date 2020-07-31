@@ -19,8 +19,8 @@
                         </span> -->
                 
                     <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-secondary btn-sm" @click="edit(todo)">Edit</button>
-                            <button type="button" class="btn btn-secondary btn-sm" @click="remove(todo)">Delete</button>
+                            <button type="button" class="button-secondary-custom btn btn-sm" @click="edit(todo)">Edit</button>
+                            <button type="button" class="button-secondary-custom btn  btn-sm" @click="remove(todo)">Delete</button>
                     </div>
                 </div>
             </li>

@@ -1,7 +1,7 @@
 import './js/';
-import './scss/main.scss';
-import './css/main.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/scss/main.scss';
+import './assets/css/main.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
