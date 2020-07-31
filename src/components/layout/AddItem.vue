@@ -3,7 +3,7 @@
         <input id="get-todo" type="text" class="form-control todo-list-input mx-sm-2"
                     :value="newTodo"
                     @change="getTodo"
-                    placeholder="Новая задача">
+                    placeholder="Новая задача" autofocus>
         <button class="btn btn-primary btn-sm todo-list-add-btn" @click="addTodo">Add</button>
     </div>
 </template>

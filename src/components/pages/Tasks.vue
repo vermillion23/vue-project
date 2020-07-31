@@ -11,9 +11,7 @@
                         <items-list/>
                     </div>
                 </main>
-
         </div>
-           
      </section>
 </template>
 
